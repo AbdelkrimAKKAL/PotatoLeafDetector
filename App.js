@@ -14,8 +14,7 @@ export default function App() {
   useEffect(() => {  
     if (!API_URL) {
       Alert.alert(
-        'Configuration Error', 
-        'API URL is not configured. Please check your .env file or update config.js'
+        'API URL is not configured. Please check your .env file or update config.js',
       );
     }
   }, []);

@@ -1,7 +1,12 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+#gitignore
+.gitignore
 # dependencies
 node_modules/
+
+# env
+.env
 
 # Expo
 .expo/
