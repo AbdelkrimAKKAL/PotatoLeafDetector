@@ -11,3 +11,14 @@ The app handles image selection, prepares the image data for upload, and display
 ## 🐍 Backend (FastAPI / TensorFlow)
 This is the API server that receives the image file.  
 It handles crucial preprocessing (resizing the image to `256 × 256` pixels), feeds the processed image into a trained TensorFlow model, and returns the classification (e.g., "Early Blight," "Late Blight," or "Healthy") along with the confidence score.
+
+
+The app interface:
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="assets/1.PNG" alt="Frontend Screenshot" width="200"/>
+    <img src="assets/healthy1.PNG" alt="Healthy Leaf" width="200"/>
+    <img src="assets/healthy2.PNG" alt="Healthy Leaf 2" width="200"/>
+    <img src="assets/early.PNG" alt="Early Blight" width="200"/>
+    <img src="assets/late.PNG" alt="Late Blight" width="200"/>
+</div>
